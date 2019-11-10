@@ -1,4 +1,4 @@
-<table style="border: 1px solid black">
+<!-- <table style="border: 1px solid black">
   <tr style="border: 1px solid black;">
     <th style="border: 1px solid black;">
       <button>+ Add</button>
@@ -16,21 +16,31 @@
       <products-list></products-list>
     </td>
     <td>
-        <div>
-           <p>Product N0 Details</p>
-           <img style="width: 26em;" src="http://www.cutestpaw.com/wp-content/uploads/2015/09/Very-tiny-kitty.jpg">
-           <div>
-              <label>Name</label><input value="Product"/>
-           </div>
-           <div>
-              <label>Description</label><input value="blaha aaaa"/>
-           </div>
-           <div>
-              <label>Price</label><input value="214324"/>
-           </div>
-           <button>Save</button>
-        </div>
+       <product-details></product-details>
     </td>
   </tr>
-</table>
+</table> -->
+
+<div style="border: 1px solid black">
+  <div style="border: 1px solid black;">
+    <th style="border: 1px solid black;">
+      <button>+ Add</button>
+      <input value="search products" />
+      <span>Sortby</span>
+      <select>
+          <option>A</option>
+          <option>B</option>
+      </select>
+    </th>
+    <th style="border: 1px solid black;"></th>
+  </div>
+  <div>
+    <td style="border: 1px solid black;" id="produs">
+      <products-list></products-list>
+    </td>
+    <td>
+       <product-details></product-details>
+    </td>
+  </div>
+</div>
 
